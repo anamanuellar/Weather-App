@@ -3,7 +3,7 @@ import { StyleSheet, Text, View, ActivityIndicator } from 'react-native';
 import Weather from '../Components/Weather';
 import Search from '../Components/Search';
 
-const API_KEY = "83577111a083e529c89902507ae8f7c3";
+const API_KEY = "API_KEY HERE";
 
 
 export default function CityWise() {
@@ -12,7 +12,7 @@ export default function CityWise() {
 
     async function fetchWeatherData(cityName) {
         setLoaded(false);
-        const API = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&units=metric&appid=${API_KEY}`
+        const API = `API_KEY HERE`
         try {
             const response = await fetch(API);
             if(response.status == 200) {
