@@ -4,8 +4,8 @@ import * as Location from 'expo-location';
 import Header from '../Components/Header';
 
 
-const openWeatherKey = "f4eece5f10cbfdb8e2d6a16ce6f26f6f";
-let url = `https://api.openweathermap.org/data/2.5/onecall?&units=metric&exclude=minutely&appid=${openWeatherKey}`;
+const openWeatherKey = "KEY";
+let url = `openWeather KEY HERE`;
 
 
 
